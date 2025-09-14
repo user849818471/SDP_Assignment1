@@ -66,7 +66,7 @@ public class Car {
 
         private void validate() {
             if (brand == null || model == null) {
-                throw new IllegalStateException("Brand and Model are required!");
+                throw new IllegalStateException("Brand and Model are required");
             }
         }
     }
