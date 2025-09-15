@@ -9,6 +9,12 @@ public class Main {
                 .addSunroof(true)
                 .build();
 
-        System.out.println(car);
+        System.out.println(car.toString());
+        System.out.println(car.getBrand());
+        System.out.println(car.getModel());
+        System.out.println(car.getEngine());
+        System.out.println(car.getDoors());
+        System.out.println(car.hasSunroof());
+
     }
 }
